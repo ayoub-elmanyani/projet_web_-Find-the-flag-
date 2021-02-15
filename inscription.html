@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="inscriptioncss.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+  </head>
+  <body>
+    <pre><form action="inscription.php" method="post">
+      <label for="prenom">First name :</label>
+      <input type="name" name="prenom" id="prenom" required>
+      <span id="1"></span>
+
+      <label for="nom">Last name :</label>
+      <input type="text" name="nom" id="nom" required>
+      <span id="2"></span>
+
+      <label for="username">Username :</label>
+      <input type="text" name="username" id="username" required>
+      <span id="3"></span>
+
+      <input type="radio" name="sexe" value="M" id="sexeM" required><label for="sexeM">M</label><input type="radio" name="sexe" value="F" id="sexeF" required><label for="sexeF">F</label>
+      <span id="4"></span>
+
+      <label for="age">Age :</label>
+      <input type="text" name="age" id="age" required>
+      <span id="5"></span>
+                                                  <!--espace-->
+      <label for="email">Email :</label>
+      <input type="text" name="email" id="email" required>
+      <span id="6"></span>
+
+      <label for="password">Password :</label>
+      <input type="password" name="password" id="password" required><img src="image/open.jpg" id="image">
+      <span id="7"></span>
+
+      <label for="password">Retape your password :</label>
+      <input type="password" name="retapepassword" id="retapepassword" required><img src="image/open.jpg" id="image1">
+      <span id="8"></span>
+
+      <input type="submit" name="submit" value="Send" class="submit" id="submit">
+
+      <a href="index.html"><input type="button" name="submit1" value="Go to home" class="submit" id="submit"></a>
+    </form></pre>
+    <p class="guess">GuessWorld</p>
+    <script src="inscriptionJS.js"></script>
+  </body>
+</html>

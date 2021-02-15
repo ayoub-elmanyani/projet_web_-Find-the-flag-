@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Site web</title>
+    <link rel="stylesheet" href="logincss.css">
+  </head>
+  <body>
+    <h2>Login GuessWorld</h2>
+    <form method="post" action="login.php">
+      <div class="container">
+        <label for="email"><b>Email</b></label>
+        <input type="email" name="email" id='email' required><br><br>
+        <label for="password"><b>Password</b></label>
+        <input type="password" name="password" id='password' required>
+        <img style="position: relative; top:5px;" src="image/open.jpg" id="image">
+        <button type="submit" id='submit'>Connexion</button>
+      </div>
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" class="cancelbtn"><a href="index.html" style="color: white; text-decoration: none;">Go to home</a></button>
+        <span class="psw"><a href="recuppassword.html">Forgot password ?</a></span>
+      </div>
+    </form>
+    <script src="loginJS.js"></script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+img{
+  position:absolute;
+  top:200px;
+  left:300px;
+}
+
+pre{
+  position: absolute;
+  top:200px;
+  left:500px;
+  font-size: 40px;
+}
+
+.home{
+  border: 0.5px solid rgba(70,130,180,0.4);
+  border-radius: 8px;
+  box-shadow: 3px 3px 3px 2px rgba(105, 105, 105, 0.7);
+  background-color: rgba(70,130,180,1);;
+  padding: 8px;
+  position:absolute;
+  top: 20px;
+  left: 70px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang = "fr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>DEMO</title>
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="http://localhost/web//css/bootstrap.min.css">
+	<link rel="stylesheet" href="http://localhost/web/plateaudemo.css">
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+	<link rel="stylesheet" href="http://localhost/web/css/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		
+	</head>
+	<body>
+	<div class="wrapper d-flex align-items-stretch">
+      
+        <!-- Page Content  -->
+      <div id="content" class="p-4 p-md-5">
+      		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+
+            <button type="button" id="sidebarCollapse" class="btn btn-primary">
+              <i class="fa fa-bars"></i>
+              <span class="sr-only">Toggle Menu</span>
+            </button>
+            <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="inscription.html">S'inscrire</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://localhost/web/login.html">Se connecter</a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </nav>
+      
+	     	<!-- Plateau de jeu -->
+
+			<h3 class="text-center">Demo Mode</h3>
+			<center><h4 id="Question" class="text-center"> Veuillez clique sur l'un des drapeaux et cliquer sur le pays qui lui correspond </h4></center>
+			<!-- Questiuon generer automatiquement -->
+				
+			<!-- Map  -->	
+
+			<div id="maMap" class="col-xs-5 col-sm-8 col-lg-6"></div>
+
+			<!-- Contient la  liste de drapeau  -->	
+			<div id="contenu" class="row justify-content-md-center"  >
+	      		<div id="draplist" class="row " >
+	      		<div  id="draplist" class="col-xs-3" ></div>
+	      		</div> 
+   			</div>
+			
+				<script src="http://localhost/web/plateaudemo.js"></script>
+			
+			<!-- Formulaire pour repondre aux  questions -->
+
+			<!--<p id="Score">Score: 4</p>
+			<p id="NbChances">Chances restants : 5 </p> -->
+			<!-- <button id="Terminé" ></button> -->
+			<center> 
+			    <button id="Langueaucchat" onclick="lastChance()">Je donne ma langue au chat</button>
+			</center>
+			 
+	  </div>
+	</div>
+
+</body>
+</html>

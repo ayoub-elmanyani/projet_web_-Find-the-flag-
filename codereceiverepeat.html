@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="recuppasswordcss.css">
+    <title></title>
+  </head>
+  <body>
+    <form  method="post" action="codereceive.php">
+      <fieldset><legend>Recovery account : </legend>
+        <pre><span style="color:red;"> Code or email denied</span></pre>
+        <label for="code">Enter the code receveid in your email :</label><br><br>
+        <input type="text" name="code" id='code'><br><br>
+        <label for="newpassword">Enter your new password :</label><br><br>
+        <input type="password" name="newpassword" id='newpassword' required> <img style="position: relative; top:5px;" src="image/open.jpg" id="image">
+        <pre><span id='1'></span></pre>
+        <button type="submit" name="submit" value="Send">Send</button><br><br>
+        <button><a href="index.html">Go to home</a></button>
+      </fieldset>
+    </form>
+    <p style="font-size:60px; position: absolute; top: 500px; left: 40px;">GuessWorld</p>
+    <script src="newpasswordJS.js"></script>
+  </body>
+</html>

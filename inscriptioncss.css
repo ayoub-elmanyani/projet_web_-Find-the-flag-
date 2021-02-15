@@ -1,0 +1,66 @@
+body{
+  background-image: url(image/worldinscription.jpg);
+}
+label{
+  font-size: 16px;
+}
+
+form{
+  background-color: rgba(135,206,250,0.9);
+  border-radius: 8px;
+  width:400px;
+  position: absolute;
+  left:100px;
+  transition:all 2s;
+  height: 800px;
+
+}
+
+input{
+  border: 1px solid gray;
+  border-radius: 5px;
+  height:20px;
+}
+
+
+.submit{
+  float:center;
+  padding:8px 12px;
+  margin:8px 0 0;
+  height: 32px;
+  font-family:'Montserrat',sans-serif;
+  border:2px solid #78788c;
+  background:0;
+  color:#5a5a6e;
+  cursor:pointer;
+  transition:all .3s;
+}
+
+.submit:hover{
+  background:#78788c;
+  color:#fff
+}
+
+.guess{
+  font-size: 70px;
+  font-weight: bolder;
+  position: absolute;
+  left: 800px;
+  top: 200px;
+  background-color: rgba(95, 158, 160, 0.5);
+  color: rgba(0, 0, 0, 0.7);
+  border-radius: 8px;
+}
+
+img{
+  position:relative;
+  top: 6.5px;
+  border: 1px solid gray;
+  border-radius: 2px;
+  margin-left: 2px;
+
+}
+
+.span{
+  width: 100px;
+}

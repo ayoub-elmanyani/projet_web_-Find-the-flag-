@@ -1,0 +1,116 @@
+body{
+   background-image:url(image/world.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   font-family: Verdana, Calibri, sans-serif;
+   padding: 15px 15px;
+   font-size: 25px;
+
+
+}
+
+nav{
+  width: 100%;
+  background-color: rgba(47,79,79,0.55);
+  border-radius: 10px;
+}
+
+nav > ul{
+  margin: 0px;
+  padding: 0px;
+}
+
+nav li{
+  list-style-type: none;
+}
+
+nav > ul > li{
+  float: left;
+  position: relative;
+}
+
+nav > ul::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav input[type=checkbox]{
+  display: none;
+}
+
+nav label{
+  display: none;
+}
+
+nav a{
+  display: inline-block;
+  text-decoration: none;
+}
+
+nav > ul > li > a{
+  padding: 20px 30px;
+  color: white;
+}
+
+nav > ul > li:hover a{
+  padding: 15px 30px 20px 30px;
+}
+
+
+.menu-case:hover{
+  border-top: 5px solid #0070bb;
+  background-color: rgba(0, 112, 192, 0.15);
+}
+
+
+
+
+nav input[type=checkbox]:checked ~ ul{
+  display: block;
+}
+
+
+@media screen and (max-width: 780px){
+  .menu-mobile{
+    display: block;
+    color: #FFF;
+    background-color: rgba(29,197,151,0.97);
+    text-align: center;
+    padding: 12px 0px;
+  }
+
+
+  nav ul{
+    display: none;
+  }
+
+  nav ul li, nav ul li a {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px;
+  }
+
+  nav ul li, nav ul li:hover a {
+    padding: 10px 0px;
+  }
+
+
+
+}
+
+
+.titregros{
+  font-size: 70px;
+  text-decoration: underline overline;
+  position: relative;
+  top: 140px;
+  color: black;
+  background-color: rgba(255, 0, 0, 0.4);
+  width: 415px;
+}
+
+.titrepetit{
+  background-color: rgba(0,80,0,0.4);
+  width:180px;
+}
