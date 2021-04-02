@@ -9,4 +9,4 @@
     comme une mauvaise réponse).
     Le nombre de points n'est pas attribué en fonction de la distance mais en fonction de tentatives, si le joueur épuise toutes ses chances aucun point ne sera attribué et à chaque fois qu'il clique sur une 
     nouvelle question le même schéma se répète.
-    Lorsque la partie se termine le joueur peut retourner à la page d'acceuil pour se reconnecter et puis avoir accès à une nouvelle version de questionnaire.
+    Lorsque la partie se termine le joueur peut retourner à la page d'accueil pour se reconnecter et puis avoir accès à une nouvelle version de questionnaire.
